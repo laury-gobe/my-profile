@@ -1,0 +1,105 @@
+body {
+  background: #F2E9DC;
+  font-family: American Typewriter;
+  font-size: 15px;
+  color: #1D1E2C;
+  text-align: justify;
+  margin: 10;
+  }
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 80px;
+  color: rgb(76, 0, 51);
+  text-align : center ;
+  }
+
+
+h2 {
+  font-family : 'Lora', serif ;
+  Font-size : 40px ;
+  Color: rgb(76, 0, 51) ;
+  text-align: left;
+   }
+
+h3 {
+  font-family : 'Lora', serif ;
+  font-size : 20px ;
+  font-style: italic ;
+  width:  fit-content;
+  border: 1px ridge black;
+  padding: 5px;
+   }
+
+p {
+  line-height : 1.8 ;
+  letter-spacing: 1px ;
+   }
+
+Img {
+  border-radius: 3%;
+}
+
+#introduction {
+  text-align: center;
+  line-height :100 px;
+ }
+
+.text-margins {
+  margin: 15;
+ }
+{}
+.container {
+  width: 1000px;
+margin : 25px auto ;
+ }
+
+@media (max-width: 900px){
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 700px){
+  .container {
+    width: 600px; }
+}
+
+@media (max-width: 500px){
+  .container {
+    width: 400px; }
+}
+
+.card-white {
+  background: floralwhite;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px rgb(0,0,0,0.3);
+  padding : 4px ;
+  margin : 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+.list-inline li {
+  display: inline;
+  padding : 100px;
+}
+.list-inline i {
+  font-size: 40px;
+  color: rgb(76, 0, 51, 50)  ;
+}
+a  {
+  text-decoration: none;
+}
+
+img {
+  border-radius: 50%;
+}
+#btn {
+  background-color:rgb(76, 0, 51) ;
+  color : floralwhite;
+  padding: 15px 20px ;
+}
